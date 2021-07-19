@@ -57,6 +57,11 @@ namespace Unity.FPS.Game
             EventManager.Broadcast(evt);
 
             OnObjectiveCompleted?.Invoke(this);
+
+            if (GetComponent<ObjectiveReward>() != null)
+            {
+                GetComponent<ObjectiveReward>().ApplyReward();
+            }
         }
     }
 }

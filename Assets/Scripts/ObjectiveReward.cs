@@ -7,17 +7,26 @@ using UnityEngine;
 public class ObjectiveReward : MonoBehaviour
 {
     public RewardType rewardType;
-    [Range(0f, 3f)]
+
+    [HideInInspector]
+    //[Range(0f, 3f)]
     public float increaseRatio;
-    [Range(0f, 1f)]
+
+    [HideInInspector]
+    //[Range(0f, 1f)]
     public float decreaseRatio;
-    [Range(0f, 10f)]
+
+    [HideInInspector]
+    //[Range(0f, 10f)]
     public int increaseAmmo;
+
+    [HideInInspector]
+    public GameObject destroyObject;
 
     GameObject player;
     WeaponController weapon;
 
-    public void ApplyReward()
+    public void ApplyReward()//物品奖励
     {
         player = GameObject.Find("Player");
         weapon = player.GetComponent<PlayerWeaponsManager>().WeaponParentSocket.
@@ -28,23 +37,28 @@ public class ObjectiveReward : MonoBehaviour
             case RewardType.maxHealth:
                 {
                     player.GetComponent<Health>().MaxHealth *= (1 + increaseRatio);
-                }
-                break;
+                    break;
+                }               
             case RewardType.maxAmmo:
                 {
                     weapon.MaxAmmo *= (1 + increaseAmmo);
-                }
-                break;
+                    break;
+                }               
             case RewardType.armor:
                 {
                     player.GetComponent<Damageable>().DamageMultiplier *= (1 - decreaseRatio);
-                }
-                break;
+                    break;
+                }               
             case RewardType.reloadDelay:
                 {
                     weapon.AmmoReloadDelay *= (1 - decreaseRatio);
-                }
-                break;
+                    break;
+                }               
+            case RewardType.destroyObject:
+                {
+                    Destroy(destroyObject);
+                    break;
+                }            
             default:
                 break;
         }
@@ -53,6 +67,6 @@ public class ObjectiveReward : MonoBehaviour
 
 public enum RewardType
 {
-    maxHealth, maxAmmo, armor, reloadDelay
+    maxHealth, maxAmmo, armor, reloadDelay, destroyObject
 };
 

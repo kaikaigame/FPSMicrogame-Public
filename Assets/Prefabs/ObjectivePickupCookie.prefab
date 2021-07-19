@@ -115,6 +115,7 @@ MonoBehaviour:
   increaseRatio: 0.5
   decreaseRatio: 0
   increaseAmmo: 0
+  destroyObject: {fileID: 0}
 --- !u!1001 &4979109354000034959
 PrefabInstance:
   m_ObjectHideFlags: 0

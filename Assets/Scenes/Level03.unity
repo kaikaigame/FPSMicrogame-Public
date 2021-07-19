@@ -1134,7 +1134,7 @@ PrefabInstance:
     - target: {fileID: 5391986374566301942, guid: 54a60e06efda77342bd95a210216d155,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.824644
+      value: -28.9
       objectReference: {fileID: 0}
     - target: {fileID: 5391986374566301942, guid: 54a60e06efda77342bd95a210216d155,
         type: 3}
@@ -1144,7 +1144,7 @@ PrefabInstance:
     - target: {fileID: 5391986374566301942, guid: 54a60e06efda77342bd95a210216d155,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.3330574
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5391986374566301942, guid: 54a60e06efda77342bd95a210216d155,
         type: 3}
@@ -3698,7 +3698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EndSceneLoadDelay: 3
   EndGameFadeCanvasGroup: {fileID: 7142924396258720985}
-  WinSceneName: Level03
+  WinSceneName: Level04
   DelayBeforeFadeToBlack: 4
   WinGameMessage: All objectives completed
   DelayBeforeWinMessage: 2
@@ -6520,6 +6520,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealBot
       objectReference: {fileID: 0}
+    - target: {fileID: 4471099222259145182, guid: f881c7ba4abf3b4498d11933ae49c694,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7818205598438585459, guid: f881c7ba4abf3b4498d11933ae49c694,
         type: 3}
       propertyPath: m_Color.b
@@ -7764,7 +7769,7 @@ PrefabInstance:
     - target: {fileID: 6949370683259884511, guid: 11cfff8e69e9768448679212e00c8497,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.5
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 6949370683259884511, guid: 11cfff8e69e9768448679212e00c8497,
         type: 3}
@@ -7774,7 +7779,7 @@ PrefabInstance:
     - target: {fileID: 6949370683259884511, guid: 11cfff8e69e9768448679212e00c8497,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.0000002
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 6949370683259884511, guid: 11cfff8e69e9768448679212e00c8497,
         type: 3}

@@ -7,8 +7,8 @@ namespace Unity.FPS.UI
 {
     public class WeaponHUDManager : MonoBehaviour
     {
-        [Tooltip("UI panel containing the layoutGroup for displaying weapon ammos")]
-        public RectTransform AmmosPanel;
+        [Tooltip("UI panel containing the layoutGroup for displaying weapon ammo")]
+        public RectTransform AmmoPanel;
 
         [Tooltip("Prefab for displaying weapon ammo")]
         public GameObject AmmoCounterPrefab;
@@ -36,7 +36,7 @@ namespace Unity.FPS.UI
 
         void AddWeapon(WeaponController newWeapon, int weaponIndex)
         {
-            GameObject ammoCounterInstance = Instantiate(AmmoCounterPrefab, AmmosPanel);
+            GameObject ammoCounterInstance = Instantiate(AmmoCounterPrefab, AmmoPanel);
             AmmoCounter newAmmoCounter = ammoCounterInstance.GetComponent<AmmoCounter>();
             DebugUtility.HandleErrorIfNullGetComponent<AmmoCounter, WeaponHUDManager>(newAmmoCounter, this,
                 ammoCounterInstance.gameObject);
@@ -66,7 +66,7 @@ namespace Unity.FPS.UI
 
         void ChangeWeapon(WeaponController weapon)
         {
-            UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(AmmosPanel);
+            UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(AmmoPanel);
         }
     }
 }

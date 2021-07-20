@@ -94,9 +94,9 @@ MonoBehaviour:
     Tutorial: {fileID: 0}
   - OrderInView: 14
     Heading:
-      m_Untranslated: Build and publish
+      m_Untranslated: Build, publish, & BONUS
     Text:
-      m_Untranslated: Build and publish your project as a shareable web game
+      m_Untranslated: Create a shareable web game and unlock bonus assets!
     LinkText: 
     Url: 
     AuthorizedUrl: 1

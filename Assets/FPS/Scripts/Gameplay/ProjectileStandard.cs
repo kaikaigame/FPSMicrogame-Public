@@ -27,7 +27,8 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Offset along the hit normal where the VFX will be spawned")]
         public float ImpactVfxSpawnOffset = 0.1f;
 
-        [Tooltip("Clip to play on impact")] public AudioClip ImpactSfxClip;
+        [Tooltip("Clip to play on impact")] 
+        public AudioClip ImpactSfxClip;
 
         [Tooltip("Layers this projectile can collide with")]
         public LayerMask HittableLayers = -1;

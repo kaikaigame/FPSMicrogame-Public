@@ -26,6 +26,9 @@ namespace Unity.FPS.UI
         [Tooltip("Text for Bullet Counter")] 
         public TextMeshProUGUI BulletCounter;
 
+        [Tooltip("Reload Text for Weapons with physical bullets")]
+        public RectTransform Reload;
+
         [Header("Selection")] [Range(0, 1)] [Tooltip("Opacity when weapon not selected")]
         public float UnselectedOpacity = 0.5f;
 
@@ -68,6 +71,7 @@ namespace Unity.FPS.UI
             else
                 BulletCounter.text = weapon.GetCarriedPhysicalBullets().ToString();
 
+            Reload.gameObject.SetActive(false);
             m_PlayerWeaponsManager = FindObjectOfType<PlayerWeaponsManager>();
             DebugUtility.HandleErrorIfNullFindObject<PlayerWeaponsManager, AmmoCounter>(m_PlayerWeaponsManager, this);
 
@@ -93,6 +97,8 @@ namespace Unity.FPS.UI
             ControlKeysRoot.SetActive(!isActiveWeapon);
 
             FillBarColorChange.UpdateVisual(currenFillRatio);
+
+            Reload.gameObject.SetActive(m_Weapon.GetCarriedPhysicalBullets() > 0 && m_Weapon.GetCurrentAmmo() == 0 && m_Weapon.IsWeaponActive);
         }
 
         void Destroy()

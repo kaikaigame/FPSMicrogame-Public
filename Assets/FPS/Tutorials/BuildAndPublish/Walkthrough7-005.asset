@@ -54,9 +54,11 @@ MonoBehaviour:
           it with the FPS<a href=\"https://learn.unity.com/project/fps-template\">Creative
           Mods</a>.\n\nWhen you\u2019re ready, this tutorial will guide you through
           building and publishing your game on a webpage that you can share with
-          friends!\n\n<b>Notes:</b>\n\n\u2022 The Creative Mods link above will open
-          the <b>Unity Learn</b> website in your default browser.\n\n\u2022 Please
-          keep in mind that building this Unity project can take some time."
+          friends!\n\n<b>BONUS:</b> by publishing your game, you\u2019ll unlock a
+          powerful <b>Sniper Rifle</b> to use in future builds!\n\n<b>Notes:</b>\n\n\u2022
+          The Creative Mods link above will open the <b>Unity Learn</b> website in
+          your default browser.\n\n\u2022 Please keep in mind that building this
+          Unity project can take some time."
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 

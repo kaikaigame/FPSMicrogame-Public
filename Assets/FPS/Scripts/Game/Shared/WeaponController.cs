@@ -153,6 +153,7 @@ namespace Unity.FPS.Game
             (MaxAmmo * BulletsPerShot);
 
         public int GetCarriedPhysicalBullets() => m_CarriedPhysicalBullets;
+        public int GetCurrentAmmo() => Mathf.FloorToInt(m_CurrentAmmo);
 
         AudioSource m_ShootAudioSource;
 
@@ -165,7 +166,7 @@ namespace Unity.FPS.Game
         void Awake()
         {
             m_CurrentAmmo = MaxAmmo;
-            m_CarriedPhysicalBullets = ClipSize;
+            m_CarriedPhysicalBullets = HasPhysicalBullets ? ClipSize : 0;
             m_LastMuzzlePosition = WeaponMuzzle.position;
 
             m_ShootAudioSource = GetComponent<AudioSource>();

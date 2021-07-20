@@ -60,16 +60,20 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Package Manager</b> window, select the
-          <b>Food pack</b> asset, then click the <b>Import</b> button to open the
-          <b>Import Unity Package</b> window.
+        m_Untranslated: '<b>1.</b> At the top of the <b>Package Manager</b> window,
+          in the <b>Packages:</b> dropdown, select <b>My Assets</b>.
 
 
-          <b>2.</b> In the <b>Import
-          Unity Package</b> window, select the <b>Import</b> button.
+          <b>2.</b>
+          Select the <b>Food pack</b> asset, then click the <b>Import</b> button
+          to open the <b>Import Unity Package</b> window.
 
 
-          <b>3.</b>
+          <b>3.</b> In
+          the <b>Import Unity Package</b> window, select the <b>Import</b> button.
+
+
+          <b>4.</b>
           When the import has finished, return to this tutorial and select <b>Next</b>
           to continue.'
       m_Summary: 

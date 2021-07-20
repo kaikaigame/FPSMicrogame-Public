@@ -66,13 +66,13 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "<b>1.</b> Click the link below to view some free assets
-          on the Asset Store website.\n\n<a href=\"https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295\">Asset
+        m_Untranslated: "<b>1.</b> Click the link below to view the free <b>Food
+          pack</b> assets on the Asset Store website.\n\n<a href=\"https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295\">Asset
           Store</a>\n\n<b>2.</b> On the webpage, add the assets by clicking the <b>\"Add
-          to My Assets\u201D</b> button.\n\n<b>3.</b> After the assets have been
-          added, click the <b>\"Open in Unity\"</b> button.\n\n<b>4.</b> Return to
-          the Unity Editor, where the <b>Package Manager</b> window will appear.
-          Select <b>Next</b> to continue."
+          to My Assets\u201D</b> button.\n\n<b>3.</b> After the <b>Food pack</b>
+          assets have been added, click the <b>\"Open in Unity\"</b> button.\n\n<b>4.</b>
+          Return to the Unity Editor, where the <b>Package Manager</b> window will
+          appear. Select <b>Next</b> to continue."
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 

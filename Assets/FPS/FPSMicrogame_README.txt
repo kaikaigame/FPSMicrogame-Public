@@ -1,4 +1,4 @@
-FPS Microgame - Version 2.0.0
+FPS Microgame - Version 2.1.0
 =============================
 
 This is the FPS Microgame package. Learn to create your own FPS game with this example project.
@@ -6,6 +6,11 @@ Learn more about the project here: http://u3d.as/1E4y
 
 Changelog
 ---------
+## [2.1.0] - 2021-07-12
+
+### Added
+- Support for contemporary weapons that feature ammo packs and reloading.
+
 ## [2.0.0] - 2021-03-11
 
 ### Changed

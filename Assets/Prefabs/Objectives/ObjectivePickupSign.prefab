@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Pick up the sign
   Description: 
-  IsOptional: 0
+  IsOptional: 1
   DelayVisible: 4
   ItemToPickup: {fileID: 6949370683259884480}
 --- !u!114 &3963633032217684632
@@ -112,9 +112,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rewardType: 2
-  increaseRatio: 0
+  increaseRatio: 0.98
   decreaseRatio: 0.98
   increaseAmmo: 0
+  destroyObject: {fileID: 0}
 --- !u!1001 &9191610672063257940
 PrefabInstance:
   m_ObjectHideFlags: 0

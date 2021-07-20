@@ -22,5 +22,10 @@ namespace Unity.FPS.UI
         {
             SceneManager.LoadScene(SceneName);
         }
+
+        public void ExitGame()
+        {
+            Application.Quit();
+        }
     }
 }

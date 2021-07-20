@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Pick up the cookie
   Description: 
-  IsOptional: 0
+  IsOptional: 1
   DelayVisible: 4
   ItemToPickup: {fileID: 2305340420415865489}
 --- !u!114 &5228272394653809609

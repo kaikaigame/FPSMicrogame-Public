@@ -1,4 +1,5 @@
 ﻿using Unity.FPS.Game;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -25,7 +26,11 @@ namespace Unity.FPS.UI
 
         public void ExitGame()
         {
-            Application.Quit();
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+		Application.Quit();
+#endif
         }
     }
 }

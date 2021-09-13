@@ -13,7 +13,11 @@ https://assetstore.unity.com/packages/3d/characters/robots/scifi-enemies-and-veh
   
 https://assetstore.unity.com/packages/templates/systems/key-door-system-fps-microgame-approved-add-ons-175210  
   
-Paid assets if you are interested in  
+https://assetstore.unity.com/packages/audio/sound-fx/customizable-boss-remix-sound-fx-fps-microgame-add-on-166990  
+  
+https://assetstore.unity.com/packages/3d/customizable-boss-skins-fps-microgame-add-on-166888  
+  
+https://assetstore.unity.com/packages/2d/textures-materials/tiling-textures-3d-microgame-add-ons-174461  
   
 https://assetstore.unity.com/browse/fps-creator-bundle  
 
@@ -29,7 +33,23 @@ https://assetstore.unity.com/packages/3d/animated-sci-fi-props-pack-3d-microgame
   
 https://assetstore.unity.com/packages/3d/characters/robots/customizable-boss-fps-microgame-add-ons-162578  
   
-Unity m_EditorVersion:  2021.1.17f1  
+https://assetstore.unity.com/packages/3d/molt-fps-microgame-add-ons-196763  
+  
+https://assetstore.unity.com/packages/3d/vaporizer-fps-microgame-add-ons-180512  
+  
+https://assetstore.unity.com/packages/3d/haku-fps-microgame-add-ons-197231  
+  
+https://assetstore.unity.com/packages/3d/quasar-fps-microgame-add-ons-197422  
+  
+https://assetstore.unity.com/packages/3d/aurous-fps-microgame-add-ons-196760  
+  
+https://assetstore.unity.com/packages/3d/thunderlight-fps-microgame-add-ons-196762  
+  
+https://assetstore.unity.com/packages/3d/props/weapons/plasma-rain-fps-microgame-add-ons-167414  
+  
+https://assetstore.unity.com/packages/3d/boomshot-fps-microgame-add-ons-180511  
+  
+Unity m_EditorVersion:  2021.1.20f1  
   
 KEYBOARD  
 UP: w or up  

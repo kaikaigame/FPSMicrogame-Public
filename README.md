@@ -49,7 +49,7 @@ https://assetstore.unity.com/packages/3d/props/weapons/plasma-rain-fps-microgame
   
 https://assetstore.unity.com/packages/3d/boomshot-fps-microgame-add-ons-180511  
   
-Unity m_EditorVersion:  2021.1.20f1  
+Unity m_EditorVersion:  2021.2.0f1  
   
 KEYBOARD  
 UP: w or up  
